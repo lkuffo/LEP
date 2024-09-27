@@ -1,3 +1,7 @@
 add_executable(test_alp_sample test_alp_sample.cpp)
 target_link_libraries(test_alp_sample PUBLIC gtest_main ALP)
 gtest_discover_tests(test_alp_sample)
+
+add_executable(test_lep_sample test_lep_sample.cpp)
+target_link_libraries(test_lep_sample PUBLIC gtest_main ALP)
+gtest_discover_tests(test_lep_sample)
